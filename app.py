@@ -161,7 +161,7 @@ def add():
 
         return redirect("/")
     else:
-        icons = os.listdir("/workspaces/83864851/project/static/icons")
+        icons = os.listdir("ReLinked-Open-Source\static\icons")
         renode = db.execute("SELECT name,id FROM renode WHERE user_id = ?", session["user_id"])
         return render_template("/add.html", renode = renode, icons = icons)
 
