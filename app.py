@@ -279,5 +279,5 @@ def editlink():
     else:
         link1 = db.execute("SELECT link,icon,name,node FROM links WHERE user_id = ?", session["user_id"])
         ren1 = db.execute("SELECT id,name FROM renode WHERE user_id = ?", session["user_id"])
-        icons1 = os.listdir("/workspaces/83864851/project/static/icons")
+        icons1 = os.listdir("static/icons")
         return render_template("/editlink.html",links = link1, renode = ren1, icons = icons1)
