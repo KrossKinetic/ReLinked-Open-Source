@@ -120,7 +120,7 @@
                     <div class="d-flex flex-row flex-wrap justify-content-around align-items-center">
                         {% for link in links %}
                             {% if link["node"] == ren["id"] %}
-                            <div class="card1 card2 card m-3" onclick="window.location.href="{{ link["link"] }}"" id="{{ link["name"] }}" style="width: 18rem;">
+                            <div class="card1 card2 card m-3" id="{{ link["name"] }}" style="width: 18rem;">
                             <div class="d-flex row justify-content-center align-items-center">
                             <div class="col-5">
                                 <img class="card-img-top" loading="lazy" role="img" style="height: 60px; width: 60px;" src="{{ link["icon"] }}">
