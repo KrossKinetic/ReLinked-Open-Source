@@ -31,7 +31,7 @@
 
 <br><br>
 
-# Video Demot <a id="video"></a>
+# Video Demo <a id="video"></a>
 
 
 [Here](https://www.youtube.com/watch?v=cAKjq3OCEXs) is the link to the YouTube video where I have explained this project !
