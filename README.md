@@ -40,12 +40,6 @@
 
 <br>
 
-# Website Link ( Server Expired ): [ReLinked](https://relinkedsavelink.herokuapp.com/)
-
-<br>
-
-<br>
-
 # Description <a id="desc"></a>
 
 
